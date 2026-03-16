@@ -1,7 +1,12 @@
 export default function Home() {
   return (
     <>
-      <h1>Home</h1>
+      {/* Hero Section */}
+      <section className="w-full ">
+
+        
+
+      </section>
     </>
   );
 }

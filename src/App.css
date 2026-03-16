@@ -2,3 +2,14 @@ body {
   padding: 0px;
   margin: 0px;
 }
+
+/* fonts */
+
+@font-face {
+  font-family: "Sunset Heaven";
+  src: url("/fonts/Sunset-Heaven.ttf") format("truetype");
+}
+
+.fontSunsetHeaven {
+  font-family: "Sunset Heaven", monospace;
+}
