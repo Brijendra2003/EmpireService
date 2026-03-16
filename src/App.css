@@ -13,3 +13,33 @@ body {
 .fontSunsetHeaven {
   font-family: "Sunset Heaven", monospace;
 }
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section::before {
+  width: 50%;
+  height: 90%;
+  border-radius: 100px;
+  content: "";
+  background-color: #00000021;
+  position: absolute;
+  left: -22%;
+  top: -15%;
+  transform: rotate(-40deg);
+}
+
+
+.hero-section::after {
+  width: 50%;
+  height: 100%;
+  border-radius: 100px;
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  right: -25%;
+  top: -5%;
+  transform: rotate(40deg);
+  z-index: 0;
+}

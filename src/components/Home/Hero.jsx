@@ -1,8 +1,10 @@
 import React from "react";
 
+import herosectionImage from "/Images/hero1.png";
+
 const Hero = () => {
   return (
-    <section className="bg-gray-100 py-20 min-h-[90vh]">
+    <section className="hero-section flex justify-between align-center bg-gray-100 py-10 min-h-[90vh]">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div>
@@ -35,9 +37,9 @@ const Hero = () => {
         {/* Right Image */}
         <div className="flex justify-center">
           <img
-            src="/images/appliance-repair.png"
+            src={herosectionImage}
             alt="Appliance Repair"
-            className="w-full max-w-lg"
+            className="w-full z-1"
           />
         </div>
       </div>
